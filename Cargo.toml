@@ -11,5 +11,7 @@ keywords = ["mq135", "gas", "sensor", "embedded-hal"]
 
 [dependencies]
 embedded-hal = { version = "0.2.7", features = ["unproven"] }
+halt = "2.0.2"
 libm = "0.2.15"
 nb = "1.1.0"
+panic = "0.4.0"
